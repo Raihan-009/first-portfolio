@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.upper-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+}
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: 350;
+}
+
+.highlight {
+    color: blueviolet;
+}
+
+.title-highlight {
+    color: red;
+}
+
+.upper-left {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+.upper-left img {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(3110deg, lightsalmon, tomato);
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: mediumblue;
+}
+
+.word-highlighter {
+    color: red;
+}
+
+.Lower-banner {
+    background-image: url("images/lower-banner.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.color-highlighter {
+    color: crimson;
+}
+
+.bottom-title {
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 2%;
+    height: 80%;
+    background-color:whitesmoke;
+}
+
+.bottom-banner {
+    background-image: url("images/honors.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#right-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width : 500px) {
+    .upper-left {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
